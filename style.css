@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+header p {
+    font-size: 2rem;
+    color: gray;
+}
+h1 {
+    font-size: 5em;
+    color: rebeccapurple;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+}
+.categorie {
+    font-size: 2em;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+header li {
+    border: solid red 2px;
+    background-color: black;
+    color: white;
+}
+li:first-child:hover{
+    cursor: pointer;
+    color: yellow;
+}
+li:nth-child(2n):hover{
+    cursor: pointer;
+    color: #8e44ad;
+}
+li:nth-child(3n):hover{
+    cursor: pointer;
+    color: #e74c3c;
+}
+li:nth-child(4n):hover{
+    cursor: pointer;
+    color: #34495e;
+}
+li:nth-child(5n):hover{
+    cursor: pointer;
+    color: #0fbcf9;
+}
+li:nth-child(6n):hover{
+    cursor: pointer;
+    color: #f53b57;
+}
+li:nth-child(7n):hover{
+    cursor: pointer;
+    color: #f1c40f;
+}
+header li {
+margin: 1em;
+list-style: none;
+}
+ /* header li:hover {
+color: red;
+cursor: pointer;
+} */
+section a {
+    font-size: 3em;
+border-radius: 2em;
+background-color: #2ecc71;
+padding: 0.5em 0.5em 0.5em 0.5em;
+text-decoration: none;
+color: #575fcf;
+font-family: cursive;
+}
+section p {
+    font-size: 3em;
+    color: #f53b57;
+    font-style: italic;
+}
+
+footer p {
+font-style: italic;
+}
+
